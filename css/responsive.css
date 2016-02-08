@@ -1,0 +1,198 @@
+@media (max-width: 1150px) {
+  .container {
+    width: 980px; }
+
+  .video-section {
+    width: 100%; }
+    .video-section img {
+      width: 100%;
+      height: auto; }
+
+  footer {
+    height: 100px; } }
+@media (max-width: 979px) {
+  .container {
+    width: 800px; }
+
+  header .menu {
+    width: 65%; }
+
+  section {
+    width: 800px;
+    padding: 15px 20px 0; }
+
+  footer {
+    height: 60px; } }
+@media (max-width: 799px) {
+  .container {
+    width: 768px;
+    padding: 15px 30px; }
+
+  header .menu {
+    width: 66%; }
+
+  section {
+    width: 768px;
+    padding: 15px 10px 0; }
+    section > div .top-image {
+      width: 310px; }
+    section > div .col2 {
+      padding-right: 15px; }
+      section > div .col2.last {
+        padding-left: 15px; }
+    section > div .the-text.resume {
+      padding-left: 20px; }
+
+  footer {
+    height: 40px; } }
+@media (max-width: 767px) {
+  .container {
+    width: 600px;
+    padding: 15px; }
+
+  header .menu {
+    width: 70%; }
+    header .menu nav {
+      margin-top: 15px; }
+      header .menu nav li {
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 20px; }
+        header .menu nav li a {
+          font-size: 18px;
+          line-height: 22px; }
+  header .logo {
+    margin-top: 10px; }
+    header .logo img {
+      width: 150px;
+      height: auto; }
+
+  section {
+    width: 600px;
+    margin-top: 20px;
+    padding: 15px 10px 0; }
+    section .border-bottom {
+      border-bottom: 0 none; }
+    section .full-row {
+      border-bottom: 1px dashed #000; }
+    section > div .top-image {
+      width: 260px; }
+    section > div .top-text {
+      width: 310px; }
+    section > div .col2 {
+      width: 100%;
+      border-right: 0 none;
+      border-bottom: 1px dashed #000;
+      padding-right: 15px;
+      padding-left: 15px; }
+      section > div .col2.last {
+        padding-right: 15px; }
+      section > div .col2 .the-image.resume {
+        width: 100%;
+        padding: 0 20px; }
+      section > div .col2 .the-text {
+        text-align: center; }
+        section > div .col2 .the-text.resume {
+          padding: 0 20px 0 40px;
+          width: 100%; }
+          section > div .col2 .the-text.resume ul {
+            text-align: left;
+            margin-left: 20%; }
+
+  footer {
+    height: 40px; }
+
+  .pop-up {
+    width: 500px;
+    margin-left: -250px; } }
+@media (max-width: 599px) {
+  .container {
+    width: 480px;
+    padding: 15px; }
+
+  header .menu {
+    width: 50%; }
+    header .menu.full-menu {
+      width: 100%; }
+    header .menu .social {
+      margin-top: 15px; }
+    header .menu nav {
+      margin-top: 15px; }
+      header .menu nav li {
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 30px; }
+        header .menu nav li a {
+          font-size: 18px;
+          line-height: 22px; }
+  header .logo {
+    margin-top: 0; }
+    header .logo img {
+      width: 150px;
+      height: auto; }
+
+  section {
+    width: 480px;
+    margin-top: 10px;
+    padding: 0 10px; }
+    section > div .top-image {
+      display: none; }
+    section > div .top-text {
+      width: 100%; }
+    section > div .col2 .the-text.resume ul {
+      margin-left: 10%; }
+
+  footer {
+    height: 20px; }
+
+  .pop-up {
+    width: 300px;
+    margin-left: -150px; } }
+@media (max-width: 479px) {
+  .container {
+    width: 320px;
+    padding: 10px; }
+
+  header .menu {
+    width: 50%; }
+    header .menu.full-menu {
+      width: 100%; }
+    header .menu div.social {
+      margin-top: 5px; }
+      header .menu div.social li {
+        margin-left: 20px; }
+        header .menu div.social li:last-child {
+          margin-left: 0; }
+    header .menu nav {
+      margin-top: 15px; }
+      header .menu nav li {
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 15px; }
+        header .menu nav li:last-child {
+          margin-left: 0; }
+        header .menu nav li a {
+          font-size: 14px;
+          line-height: 18px; }
+  header .logo img {
+    width: 120px;
+    height: auto; }
+
+  section {
+    width: 320px;
+    margin-top: 10px;
+    padding: 0 5px; }
+    section > div .col2 .the-image {
+      width: 100%; }
+    section > div .col2 .the-text.resume ul {
+      margin-left: 0px; }
+    section > div .the-image-with-text {
+      width: 100%;
+      padding: 0; } }
+@media (max-height: 500px) {
+  .pop-up {
+    top: 0;
+    margin-top: 0;
+    height: 96%; } }
+
+/*# sourceMappingURL=responsive.css.map */
